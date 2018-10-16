@@ -1,0 +1,19 @@
+{% extends "advertisement/base.html" %}
+{% load static %}
+{% load ads_tags %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'advertisement/css/index.css' %}" />
+{% endblock %}
+
+{% block scripts %}
+<script type="text/javascript" src="{% static 'advertisement/js/index.js' %}"></script>
+{% endblock %}
+
+{% block title %}Java Coffee House{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center" style="padding-top: 50px;">
+    {% render_ads_zone 'content' %}
+</div>
+{% endblock %}
