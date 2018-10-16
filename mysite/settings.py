@@ -26,7 +26,7 @@ SECRET_KEY = '^ub%l*-ya$hak_lwcrbz#qjzt+iwjd(sl^lt@78$8jr&%eva6r'
 DEBUG = False
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1',
-                 '188.166.157.234', '188.166.157.234']
+                 'joe-demo.com', '188.166.157.234']
 
 
 # Application definition
