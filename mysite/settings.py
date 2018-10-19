@@ -25,7 +25,7 @@ SECRET_KEY = '^ub%l*-ya$hak_lwcrbz#qjzt+iwjd(sl^lt@78$8jr&%eva6r'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '209.97.132.3']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'adm.brandfi.co.ke', '188.166.157.234']
 
 
 # Application definition
