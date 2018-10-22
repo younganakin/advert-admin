@@ -18,6 +18,11 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 
+# Admin Site Config
+admin.sites.AdminSite.site_header = 'ABC Company Ltd'
+admin.sites.AdminSite.site_title = 'Ads Management System'
+
+
 urlpatterns = [
     path('ads/', include('ads.urls')),
     path('advertisement/', include('advertisement.urls')),
