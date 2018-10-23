@@ -25,7 +25,7 @@ SECRET_KEY = '^ub%l*-ya$hak_lwcrbz#qjzt+iwjd(sl^lt@78$8jr&%eva6r'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '209.97.132.3']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '188.166.157.234', 'adm.brandfi.co.ke']
 
 
 # Application definition
@@ -148,7 +148,7 @@ ADS_ZONES = {
         'ad_size': {
             'xs': '720x150',
             'sm': '800x90',
-            'md': '800x90',
+            'md': '266x189',
             'lg': '291x173'
         },
         'google_adsense_slot': 'xxxxxxxxx',  # OPTIONAL - DEFAULT TO None
